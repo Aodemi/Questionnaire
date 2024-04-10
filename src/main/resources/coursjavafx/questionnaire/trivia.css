@@ -1,0 +1,77 @@
+.root {
+    -fx-background-color: #f0f0f0; /* Background color for the entire scene */
+}
+
+/* Styling for the Label */
+.label {
+    -fx-font-size: 24px; /* Font size */
+    -fx-font-weight: bold; /* Bold font */
+    -fx-alignment: center; /* Center alignment */
+    -fx-padding: 20 0; /* Padding */
+    -fx-text-fill: #333; /* Text color */
+}
+
+/* Styling for the title */
+.label.title {
+    -fx-background-color: #007bff; /* Background color */
+    -fx-text-fill: #fff; /* Text color */
+    -fx-padding: 5px 20px; /* Padding */
+    -fx-border-radius: 5px; /* Border radius */
+    -fx-background-radius: 5px; /* Background radius */
+    -fx-font-size: 28px; /* Font size */
+}
+.label.question{
+    -fx-font-size: 16px; /* Font size */
+    -fx-alignment: left; /* Center alignment */
+    -fx-padding: 20 20; /* Padding */
+    -fx-text-fill: #313587; /* Text color */
+    -fx-border-radius: 5px; /* Border radius */
+    -fx-background-radius: 5px; /* Background radius */
+}
+
+
+/* Styling for the Buttons */
+.button {
+    -fx-font-size: 14px; /* Font size */
+    -fx-pref-width: 120px; /* Preferred width */
+    -fx-pref-height: 40px; /* Preferred height */
+    -fx-background-color: #007bff; /* Background color */
+    -fx-text-fill: #fff; /* Text color */
+    -fx-border-radius: 20px; /* Border radius */
+    -fx-background-radius: 20px; /* Background radius */
+    -fx-padding: 5px 20px; /* Padding */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 0); /* Drop shadow effect */
+}
+
+/* Hover effect for Buttons */
+.button:hover {
+    -fx-background-color: #0056b3; /* Darker background color on hover */
+}
+
+/* Pressed effect for Buttons */
+.button:pressed {
+    -fx-background-color: #003d80; /* Even darker background color when pressed */
+}
+
+/* Styling for the Next Button */
+.button.next {
+    -fx-font-size: 16px; /* Larger font size */
+    -fx-pref-width: 100px; /* Preferred width */
+    -fx-pref-height: 50px; /* Preferred height */
+    -fx-background-color: #28a745; /* Green background color */
+}
+
+/* Styling for the AnchorPane */
+.anchor-pane {
+    -fx-padding: 20px; /* Padding */
+    -fx-alignment: center; /* Center alignment */
+}
+.Good{
+
+}
+.Green{
+    -fx-background-color: #51f54e;
+}
+.Red{
+    -fx-background-color: #f56767;
+}

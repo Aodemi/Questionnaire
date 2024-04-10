@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="191406ba-a1eb-44c1-aee7-79a1900fdb96" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursjavafx/questionnaire/Trivia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursjavafx/questionnaire/Trivia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coursjavafx/questionnaire/TriviaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coursjavafx/questionnaire/TriviaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/coursjavafx/questionnaire/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/coursjavafx/questionnaire/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/coursjavafx/questionnaire/trivia.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/coursjavafx/questionnaire/trivia.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/coursjavafx/questionnaire/trivia.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/coursjavafx/questionnaire/trivia.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,13 +48,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Trivia.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\2258849\IdeaProjects\Questionnaire\src\main\resources\coursjavafx\questionnaire" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712758818398</updated>
-      <workItem from="1712758819474" duration="1000" />
+      <workItem from="1712758819474" duration="5958000" />
     </task>
     <servers />
   </component>

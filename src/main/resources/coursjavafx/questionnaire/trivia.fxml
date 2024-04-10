@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
-
+<AnchorPane prefHeight="400.0" prefWidth="336.0" stylesheets="@trivia.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursjavafx.questionnaire.TriviaController">
+   <children>
+      <Button fx:id="next" layoutX="110.0" layoutY="317.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="78.0" text="Button" />
+      <Button fx:id="button3" layoutX="32.0" layoutY="243.0" mnemonicParsing="false" onAction="#onClickCompareAnswer" prefHeight="47.0" prefWidth="78.0" text="Button" />
+      <Button fx:id="button4" layoutX="188.0" layoutY="243.0" mnemonicParsing="false" onAction="#onClickCompareAnswer" prefHeight="47.0" prefWidth="78.0" text="Button" />
+      <Button fx:id="button1" layoutX="32.0" layoutY="170.0" mnemonicParsing="false" onAction="#onClickCompareAnswer" prefHeight="47.0" prefWidth="78.0" text="Button" />
+      <Button fx:id="button2" layoutX="188.0" layoutY="170.0" mnemonicParsing="false" onAction="#onClickCompareAnswer" prefHeight="47.0" prefWidth="78.0" text="Button" />
+      <Label fx:id="question" alignment="CENTER" contentDisplay="CENTER" layoutX="48.0" layoutY="95.0" prefHeight="40.0" prefWidth="240.0" text="Label" textAlignment="CENTER" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="20.0" prefHeight="78.0" prefWidth="297.0" text="Trivia" textAlignment="CENTER" />
+   </children>
 </AnchorPane>
